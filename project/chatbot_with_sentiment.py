@@ -43,8 +43,3 @@ app = (
     .with_entrypoint("human_input")
     .build()
 )
-
-*_, state = app.run(halt_after=["analyze_sentiment"], inputs={"prompt": "What do you think about artificial intelligence?"})
-print("AI response:", state["response"])
-print("Sentiment:", state["sentiment"])
-print(len(state["chat_history"]), "items in chat")
