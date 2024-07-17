@@ -1,4 +1,4 @@
-# My Project
+# Project
 
 This is a simple Python project created as a starting point.
 
