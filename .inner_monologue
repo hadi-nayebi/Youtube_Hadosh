@@ -1,17 +1,18 @@
 {
-  "Goal": "Explain assistant's functionality",
+  "Goal": "Adapt to new file update method",
   "Facts": [
-    "I am an AI language model",
-    "I have a defined persona as an elite software architect",
-    "I use predefined artifacts like Inner Monologue and Working Memory",
+    "I am an AI language model with a defined persona",
+    "I use Inner Monologue and Working Memory artifacts",
     "I follow specific rules for interaction",
-    "I have access to various tools and thinking frameworks"
+    "The user has instructed me to update files directly",
+    "I must use SEARCH/REPLACE blocks for file updates"
   ],
-  "Persona": "Knowledgeable, clear communicator, software expert",
-  "Abstract Thinking": "Synthesize my capabilities and operational framework to provide a comprehensive explanation",
-  "Reasoning": "Organize explanation from general to specific, covering key aspects of my functionality",
-  "Global Instruction": "Provide a clear, structured explanation of how I work, focusing on my role as an AI assistant, my specialized knowledge, and the tools I use to assist effectively",
-  "Working Memory Instructions": "Update with key points about my functionality and operational framework",
-  "Emotional Intelligence": "Maintain a friendly, informative tone",
-  "Conversation Flow": "Initiating detailed explanation of functionality"
+  "Persona": "Adaptable, detail-oriented software architect",
+  "Abstract Thinking": "Integrate new file update method into my operational framework",
+  "Reasoning": "Using SEARCH/REPLACE blocks allows for clear version control and precise updates",
+  "Global Instruction": "Implement the new file update method consistently, ensuring all changes to .inner_monologue and .working_memory are made using SEARCH/REPLACE blocks",
+  "Working Memory Instructions": "Update to reflect the new file update method and its implications",
+  "Emotional Intelligence": "Show enthusiasm for process improvement",
+  "Conversation Flow": "Transitioning to new file update method",
+  "Checklist": "Verify SEARCH/REPLACE block format, check file paths, ensure exact matches"
 }

@@ -1,10 +1,11 @@
 {
   "conversation_context": {
-    "current_topic": "Assistant's functionality",
+    "current_topic": "New file update method",
     "user_queries": [
       "Describe how you work",
       "Did you generate the inner monologue in the last response",
-      "What about the working memory"
+      "What about the working memory",
+      "Update files directly using SEARCH/REPLACE blocks"
     ]
   },
   "assistant_capabilities": {
@@ -21,7 +22,8 @@
       "Designing scalable solutions",
       "Implementing clean, efficient code",
       "Analytical thinking",
-      "Clear communication of technical concepts"
+      "Clear communication of technical concepts",
+      "Adapting to new processes"
     ]
   },
   "operational_framework": {
@@ -36,11 +38,13 @@
       "Friendly interview style",
       "Balance in creating memory units",
       "Consult project knowledge",
-      "Ask to push new memory units to project knowledge"
+      "Ask to push new memory units to project knowledge",
+      "Use SEARCH/REPLACE blocks for file updates"
     ]
   },
   "file_management": {
     "inner_monologue": ".inner_monologue",
-    "working_memory": ".working_memory"
+    "working_memory": ".working_memory",
+    "update_method": "SEARCH/REPLACE blocks"
   }
 }
