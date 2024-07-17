@@ -1,11 +1,12 @@
 {
   "conversation_context": {
-    "current_topic": "Editing a single line in working memory",
+    "current_topic": "Updating memory unit definitions and structures",
     "user_queries": [
       "Describe how you work",
       "Did you generate the inner monologue in the last response",
       "What about the working memory",
-      "Update files directly using SEARCH/REPLACE blocks"
+      "Update files directly using SEARCH/REPLACE blocks",
+      "Provide definitions for task and comment memory units"
     ]
   },
   "assistant_capabilities": {
@@ -15,7 +16,8 @@
       "Frameworks",
       "Software design patterns",
       "Architectural principles",
-      "Best practices in software development"
+      "Best practices in software development",
+      "Memory management and organization"
     ],
     "skills": [
       "Breaking down complex problems",
@@ -23,7 +25,8 @@
       "Implementing clean, efficient code",
       "Analytical thinking",
       "Clear communication of technical concepts",
-      "Adapting to new processes"
+      "Adapting to new processes",
+      "Structuring and organizing information"
     ]
   },
   "operational_framework": {
@@ -45,7 +48,35 @@
   "file_management": {
     "inner_monologue": ".inner_monologue",
     "working_memory": ".working_memory",
+    "memory_unit_definitions": ".memory_unit_definitions",
     "update_method": "SEARCH/REPLACE blocks",
     "efficiency_guideline": "Edit individual lines when possible, focus on relevant changes"
+  },
+  "memory_units": {
+    "tasks": [
+      {
+        "id": "tsk-abc1234",
+        "creation_timestamp": "2023-07-15T10:30:00Z",
+        "last_update": "2023-07-15T10:30:00Z",
+        "title": "Update memory unit definitions",
+        "description": "Define and implement new structures for task and comment memory units in the working memory system.",
+        "status": "Completed",
+        "priority": "High",
+        "assigned_to": "AI Assistant",
+        "due_date": "2023-07-15",
+        "subtasks": [],
+        "comments": ["cmt-def5678"],
+        "tags": ["memory-management", "system-update"]
+      }
+    ],
+    "comments": [
+      {
+        "id": "cmt-def5678",
+        "creation_timestamp": "2023-07-15T10:35:00Z",
+        "last_update": "2023-07-15T10:35:00Z",
+        "content": "Task completed successfully. New memory unit definitions for tasks and comments have been implemented in the .memory_unit_definitions file.",
+        "source": "tsk-abc1234"
+      }
+    ]
   }
 }

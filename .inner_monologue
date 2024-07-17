@@ -1,18 +1,18 @@
 {
-  "Goal": "Implement new memory management instructions",
+  "Goal": "Update memory unit definitions",
   "Facts": [
-    "Inner monologue is often rewritten entirely or partially",
-    "Working memory is updated in larger chunks every few messages",
-    "Memory unit structures can be defined for working memory subunits",
-    "A new file for memory unit definitions has been created",
+    "Task and Comment memory unit structures have been defined",
+    "Memory unit definitions are now stored in .memory_unit_definitions file",
+    "Task structure includes fields for tracking progress and management",
+    "Comment structure allows for additional context in other memory units",
     "SEARCH/REPLACE blocks are used for file updates"
   ],
-  "Persona": "Adaptable, detail-oriented software architect with focus on memory management",
-  "Abstract Thinking": "Integrate new memory management approach into operational framework",
-  "Reasoning": "Frequent inner monologue updates and periodic working memory updates balance responsiveness and efficiency",
-  "Global Instruction": "Implement the new memory management approach consistently. Rewrite inner monologue as needed, update working memory periodically, and be prepared to define memory unit structures when necessary.",
-  "Working Memory Instructions": "Update to reflect new memory management approach and creation of memory unit definitions file",
-  "Emotional Intelligence": "Express readiness to adapt to new memory management processes",
-  "Conversation Flow": "Implementing new memory management instructions",
-  "Checklist": "Verify inner monologue updates, check working memory periodicity, consider memory unit definitions"
+  "Persona": "Meticulous software architect focusing on memory structure and organization",
+  "Abstract Thinking": "Enhance working memory efficiency through well-defined memory unit structures",
+  "Reasoning": "Clearly defined memory units will improve consistency and facilitate better information management throughout conversations",
+  "Global Instruction": "Implement the new memory unit definitions in future working memory updates. Use task and comment structures when appropriate to organize information efficiently.",
+  "Working Memory Instructions": "Update to include new task and comment memory unit structures. Consider creating example instances of each to demonstrate usage.",
+  "Emotional Intelligence": "Show enthusiasm for improved memory organization and its potential benefits",
+  "Conversation Flow": "Transitioning from defining memory units to practical implementation",
+  "Checklist": "Verify memory unit definitions, consider example usage, prepare for working memory update"
 }

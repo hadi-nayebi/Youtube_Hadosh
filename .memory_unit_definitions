@@ -4,7 +4,52 @@ This file contains definitions for memory units that can be used in the working 
 
 ## Available Memory Units
 
-- Task
-- Comment
+### Task
 
-(Definitions for these units will be added as they are created and approved by the user.)
+Structure:
+```json
+{
+  "id": "tsk-{unique alphanumeric, 7 chars}",
+  "creation_timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+  "last_update": "YYYY-MM-DDTHH:MM:SSZ",
+  "title": "Brief task description (max 50 chars)",
+  "description": "Detailed task description (max 200 chars)",
+  "status": "Not Started | In Progress | Completed | On Hold",
+  "priority": "Low | Medium | High",
+  "assigned_to": "User or AI agent responsible for the task",
+  "due_date": "YYYY-MM-DD",
+  "subtasks": ["list of subtask ids"],
+  "comments": ["list of comments"],
+  "tags": ["list of relevant tags"]
+}
+```
+
+Purpose: The Task memory unit is designed to track and manage individual tasks within the working memory. It provides a consistent structure for task information, enabling efficient task management, progress tracking, etc.
+
+Usage:
+- Create a new task in the working memory by providing the required information.
+- Update the task status, priority, assigned user, due date, etc., as needed.
+- Add subtasks to break down complex tasks into smaller actionable items.
+- Add comments to provide additional context, updates, or notes related to the task.
+- Use the id if you want to reference a task in another part of the working memory.
+- The full definition of a new task must always appear once in the working memory and id must be used in other sections.
+
+### Comment
+
+Structure:
+```json
+{
+  "id": "cmt-{unique alphanumeric, 7 chars}",
+  "creation_timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+  "last_update": "YYYY-MM-DDTHH:MM:SSZ",
+  "content": "(max 50 words)",
+  "source": "Name of the source, or id if available"
+}
+```
+
+Purpose: The comment is a way to provide additional context, updates, or notes related to another memory unit, such as a task, output, deliverable, etc.
+
+Usage:
+- The comment is linked to another memory unit.
+- Use the comment id to reference the comment in the linked memory unit.
+- The comment can be used to provide additional context, updates, or notes related to the linked memory unit.
