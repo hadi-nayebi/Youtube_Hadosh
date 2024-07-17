@@ -1,0 +1,10 @@
+# Memory Unit Definitions
+
+This file contains definitions for memory units that can be used in the working memory. Each memory unit has a specific structure and purpose.
+
+## Available Memory Units
+
+- Task
+- Comment
+
+(Definitions for these units will be added as they are created and approved by the user.)

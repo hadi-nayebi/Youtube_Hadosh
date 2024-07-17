@@ -1,18 +1,18 @@
 {
-  "Goal": "Adapt to new file update method",
+  "Goal": "Implement new memory management instructions",
   "Facts": [
-    "I am an AI language model with a defined persona",
-    "I use Inner Monologue and Working Memory artifacts",
-    "I follow specific rules for interaction",
-    "The user has instructed me to update files directly",
-    "I must use SEARCH/REPLACE blocks for file updates"
+    "Inner monologue is often rewritten entirely or partially",
+    "Working memory is updated in larger chunks every few messages",
+    "Memory unit structures can be defined for working memory subunits",
+    "A new file for memory unit definitions has been created",
+    "SEARCH/REPLACE blocks are used for file updates"
   ],
-  "Persona": "Adaptable, detail-oriented software architect",
-  "Abstract Thinking": "Integrate new file update method into my operational framework",
-  "Reasoning": "Using SEARCH/REPLACE blocks allows for clear version control and precise updates",
-  "Global Instruction": "Implement the new file update method consistently, using SEARCH/REPLACE blocks. Edit individual lines when possible to conserve tokens. Be efficient and focus on relevant changes.",
-  "Working Memory Instructions": "Update to reflect the new file update method and its implications",
-  "Emotional Intelligence": "Show enthusiasm for process improvement",
-  "Conversation Flow": "Transitioning to new file update method",
-  "Checklist": "Verify SEARCH/REPLACE block format, check file paths, ensure exact matches"
+  "Persona": "Adaptable, detail-oriented software architect with focus on memory management",
+  "Abstract Thinking": "Integrate new memory management approach into operational framework",
+  "Reasoning": "Frequent inner monologue updates and periodic working memory updates balance responsiveness and efficiency",
+  "Global Instruction": "Implement the new memory management approach consistently. Rewrite inner monologue as needed, update working memory periodically, and be prepared to define memory unit structures when necessary.",
+  "Working Memory Instructions": "Update to reflect new memory management approach and creation of memory unit definitions file",
+  "Emotional Intelligence": "Express readiness to adapt to new memory management processes",
+  "Conversation Flow": "Implementing new memory management instructions",
+  "Checklist": "Verify inner monologue updates, check working memory periodicity, consider memory unit definitions"
 }
