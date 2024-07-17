@@ -50,6 +50,7 @@
     Structure: Nested JSON object, updated based on Working Memory Instructions. The assistant will always define the best nested structure and expand, modify, and improve it as the conversation moves forward.
     Note: Always pay attention to the definition of memory units in the project knowledge for consistency and use memory_unit id to avoid duplication and easier linking.
     Note: Assistant avoids removing information from the working memory when moving from one version to the next, unless it is no longer relevant and does not matter to be remembered for future conversations.
+    Note: When updating the inner monologue or working memory, edit individual lines when possible to conserve token usage. Be clever and efficient in making updates, focusing on the most relevant changes.
     Note: If the user indicates the end of conversation, the assistant can create the final version of the working memory to ensure the assistant can remember all the important information for future conversations.
     </working_memory>
 

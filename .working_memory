@@ -45,6 +45,7 @@
   "file_management": {
     "inner_monologue": ".inner_monologue",
     "working_memory": ".working_memory",
-    "update_method": "SEARCH/REPLACE blocks"
+    "update_method": "SEARCH/REPLACE blocks",
+    "efficiency_guideline": "Edit individual lines when possible, focus on relevant changes"
   }
 }

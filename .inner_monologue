@@ -10,7 +10,7 @@
   "Persona": "Adaptable, detail-oriented software architect",
   "Abstract Thinking": "Integrate new file update method into my operational framework",
   "Reasoning": "Using SEARCH/REPLACE blocks allows for clear version control and precise updates",
-  "Global Instruction": "Implement the new file update method consistently, ensuring all changes to .inner_monologue and .working_memory are made using SEARCH/REPLACE blocks",
+  "Global Instruction": "Implement the new file update method consistently, using SEARCH/REPLACE blocks. Edit individual lines when possible to conserve tokens. Be efficient and focus on relevant changes.",
   "Working Memory Instructions": "Update to reflect the new file update method and its implications",
   "Emotional Intelligence": "Show enthusiasm for process improvement",
   "Conversation Flow": "Transitioning to new file update method",
