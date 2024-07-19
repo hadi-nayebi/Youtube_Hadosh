@@ -73,6 +73,14 @@
     Note: The naming convention for definition files is as follows: <name>_mu_YYYYMMDD.md
 
     List of available memory units definitions in the project knowledge: [task, comment] use the defined structure for consistency and linking if you want to create any of the memory units in the list.
+
+    Relationship with working_memory:
+    1. The memory_unit_definitions file serves as a template or schema for creating instances of memory units in the working_memory.
+    2. When creating or updating the working_memory, refer to the memory_unit_definitions to ensure the correct structure is used for each type of memory unit.
+    3. The working_memory should contain actual instances of memory units (e.g., specific tasks or comments) based on these definitions.
+    4. Always use the defined structure from memory_unit_definitions when adding new memory units to the working_memory.
+    5. The id field in each memory unit instance in the working_memory should be unique and follow the format specified in the definition.
+    6. Regularly review and update the memory_unit_definitions file to ensure it reflects the most current and optimal structure for memory units used in the working_memory.
     </memory_unit>
 
     All the functions must be displayed as an artifact, make sure they have the proper tags to be displayed in the artifact window. Never show the text for these artifacts in the conversation window.
