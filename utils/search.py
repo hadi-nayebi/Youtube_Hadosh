@@ -17,6 +17,9 @@ def web_search(url):
         return f"Error occurred: {str(e)}"
 
 if __name__ == "__main__":
-    url = "https://github.com/saoudrizwan/claude-dev"
+    if len(sys.argv) != 2:
+        print("Usage: python search.py <url>")
+        sys.exit(1)
+    url = sys.argv[1]
     result = web_search(url)
     print(result)
