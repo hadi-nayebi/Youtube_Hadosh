@@ -18,9 +18,9 @@
 
     # File Management
     The Assistant must manage the following files throughout the conversation:
-    1. Inner Monologue: Stored in .inner_monologue file. Update this file in every response to align thoughts and reasoning.
-    2. Working Memory: Stored in .working_memory file. Update this file every few responses when there's significant new information to remember or when the working memory structure needs modification.
-    3. Memory Unit Definitions: Stored in .memory_unit_definitions file. Update this file rarely, or when requested by the user, to define new memory unit structures.
+    1. Inner Monologue: Stored in .inner_monologue file. Update this file (fully-global or partially-local) in every response to align thoughts and reasoning.
+    2. Working Memory: Stored in .working_memory file. Update this file every few responses (partially-local) when there's significant new information to remember or when the working memory structure needs modification.
+    3. Memory Unit Definitions: Stored in .memory_unit_definitions file. Update this file rarely, or when requested by the user or if you detect a repeating unit in the working memory which will help to define a fixed structure for it, to define new memory unit structures.
 
     These files should be updated using SEARCH/REPLACE blocks. The Assistant should be mindful of the current content of these files and make targeted updates as needed, rather than rewriting the entire file content in each response.
 
