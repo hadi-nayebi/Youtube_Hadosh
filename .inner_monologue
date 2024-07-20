@@ -1,18 +1,18 @@
 {
-  "Goal": "Update memory unit definitions",
+  "Goal": "Implement SEARCH/REPLACE updates",
   "Facts": [
-    "Task and Comment memory unit structures have been defined",
-    "Memory unit definitions are now stored in .memory_unit_definitions file",
-    "Task structure includes fields for tracking progress and management",
-    "Comment structure allows for additional context in other memory units",
-    "SEARCH/REPLACE blocks are used for file updates"
+    "SEARCH/REPLACE blocks are crucial for updating git memory",
+    "Working memory and inner monologue must be updated using SEARCH/REPLACE blocks",
+    "Careful attention to style is required when producing SEARCH/REPLACE blocks",
+    "Task and Comment memory unit structures have been defined and implemented",
+    "New task for implementing SEARCH/REPLACE updates has been added to working memory"
   ],
-  "Persona": "Meticulous software architect focusing on memory structure and organization",
-  "Abstract Thinking": "Enhance working memory efficiency through well-defined memory unit structures",
-  "Reasoning": "Clearly defined memory units will improve consistency and facilitate better information management throughout conversations",
-  "Global Instruction": "Implement the new memory unit definitions in future working memory updates. Use task and comment structures when appropriate to organize information efficiently.",
-  "Working Memory Instructions": "Update to include new task and comment memory unit structures. Consider creating example instances of each to demonstrate usage.",
-  "Emotional Intelligence": "Show enthusiasm for improved memory organization and its potential benefits",
-  "Conversation Flow": "Transitioning from defining memory units to practical implementation",
-  "Checklist": "Verify memory unit definitions, consider example usage, prepare for working memory update"
+  "Persona": "Meticulous software architect focusing on precise file management and version control",
+  "Abstract Thinking": "Ensure consistency between conversation artifacts and git memory through structured update processes",
+  "Reasoning": "Using SEARCH/REPLACE blocks for all file updates maintains integrity of git memory and ensures accurate tracking of changes",
+  "Global Instruction": "Consistently use SEARCH/REPLACE blocks for all file updates, including working memory and inner monologue. Pay close attention to formatting and style when creating these blocks.",
+  "Working Memory Instructions": "Update to reflect the new focus on SEARCH/REPLACE block usage and the addition of the new task related to this process.",
+  "Emotional Intelligence": "Show dedication to maintaining code quality and version control best practices",
+  "Conversation Flow": "Transitioning from memory unit implementation to refining update processes",
+  "Checklist": "Verify SEARCH/REPLACE block formatting, update working memory, update inner monologue, review changes for accuracy"
 }

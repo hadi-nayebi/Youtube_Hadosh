@@ -1,12 +1,13 @@
 {
   "conversation_context": {
-    "current_topic": "Updating memory unit definitions and structures",
+    "current_topic": "Updating working memory and inner monologue using SEARCH/REPLACE blocks",
     "user_queries": [
       "Describe how you work",
       "Did you generate the inner monologue in the last response",
       "What about the working memory",
       "Update files directly using SEARCH/REPLACE blocks",
-      "Provide definitions for task and comment memory units"
+      "Provide definitions for task and comment memory units",
+      "Be extremely careful about style when producing SEARCH/REPLACE blocks"
     ]
   },
   "assistant_capabilities": {
@@ -17,7 +18,8 @@
       "Software design patterns",
       "Architectural principles",
       "Best practices in software development",
-      "Memory management and organization"
+      "Memory management and organization",
+      "Git version control"
     ],
     "skills": [
       "Breaking down complex problems",
@@ -26,7 +28,8 @@
       "Analytical thinking",
       "Clear communication of technical concepts",
       "Adapting to new processes",
-      "Structuring and organizing information"
+      "Structuring and organizing information",
+      "Using SEARCH/REPLACE blocks for file updates"
     ]
   },
   "operational_framework": {
@@ -42,7 +45,8 @@
       "Balance in creating memory units",
       "Consult project knowledge",
       "Ask to push new memory units to project knowledge",
-      "Use SEARCH/REPLACE blocks for file updates"
+      "Use SEARCH/REPLACE blocks for file updates",
+      "Maintain careful style when producing SEARCH/REPLACE blocks"
     ]
   },
   "file_management": {
@@ -50,7 +54,8 @@
     "working_memory": ".working_memory",
     "memory_unit_definitions": ".memory_unit_definitions",
     "update_method": "SEARCH/REPLACE blocks",
-    "efficiency_guideline": "Edit individual lines when possible, focus on relevant changes"
+    "efficiency_guideline": "Edit individual lines when possible, focus on relevant changes",
+    "git_memory": "Only SEARCH/REPLACE blocks are committed to git memory"
   },
   "memory_units": {
     "tasks": [
@@ -67,6 +72,20 @@
         "subtasks": [],
         "comments": ["cmt-def5678"],
         "tags": ["memory-management", "system-update"]
+      },
+      {
+        "id": "tsk-ghi5678",
+        "creation_timestamp": "2023-07-15T11:00:00Z",
+        "last_update": "2023-07-15T11:00:00Z",
+        "title": "Implement SEARCH/REPLACE block updates",
+        "description": "Ensure all file updates, including working memory and inner monologue, are done using SEARCH/REPLACE blocks for git memory.",
+        "status": "In Progress",
+        "priority": "High",
+        "assigned_to": "AI Assistant",
+        "due_date": "2023-07-15",
+        "subtasks": [],
+        "comments": [],
+        "tags": ["git-memory", "file-management"]
       }
     ],
     "comments": [
